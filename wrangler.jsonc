@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "personal-os-edge",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "ai": {
+    "binding": "AI"
+  },
+  "vars": {
+    "SUPABASE_URL": "https://yvdzdwzfgozeanwusysh.supabase.co",
+    "ENCLAVE_OWNER_EMAIL": "321arifali@gmail.com",
+    "ENVIRONMENT": "production"
+  }
+}

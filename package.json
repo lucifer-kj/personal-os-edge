@@ -1,0 +1,24 @@
+{
+  "name": "personal-os-edge",
+  "version": "1.0.0",
+  "description": "High-performance serverless edge backend for Personal OS: Cloudflare Workers AI Whisper, Lead Webhooks, and MCP Server for n8n",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.2.2",
+    "hono": "^4.7.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5",
+    "wrangler": "^3.111.0"
+  }
+}
